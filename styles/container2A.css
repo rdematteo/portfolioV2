@@ -1,0 +1,467 @@
+/* container2 */
+
+@import "../../styles/buttons.css";
+
+* body {
+  margin: 0;
+  border: 0;
+}
+
+.fab {
+  color: white;
+}
+
+:root {
+  --light-yellow: #feffef;
+  --light-brown: #ffc883;
+  --black: #000000;
+  --brown: #4c2a05;
+  --h1: #4c2a05;
+}
+
+.text h1 {
+  margin: 0;
+  font-size: 58px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: blue;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+/* most outer container */
+.container2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background: url(../pics/landing_page_final.jpg);
+  background-position: center;
+  background-size: cover;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+/* links to linkedin and github */
+.nav-box {
+  height: 50px;
+  width: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  align-items: top;
+}
+
+
+
+.right-box {
+  width: 85%;
+  height: 90%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #fff7ef, #ffffff);
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* upper contains title and image */
+.upper {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.title {
+  width: 85%;
+  height: 80%;
+  font-family: "Merriweather", serif;
+  padding: 0px 0px 0px 10px;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid gray;
+}
+
+.image {
+  width: 13%;
+  height: 200%;
+  background: url(../pics/rob_pic2.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lower {
+  width: 90%;
+  height: 55%;
+  text-align: justify;
+}
+
+.para1 {
+  width: 82%;
+}
+
+.photos {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.photo1 {
+  width: 20%;
+  height: 100%;
+}
+
+.picture1 {
+  background: url(../pics/mtcook.jpg);
+  height: 80%;
+  width: 90%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pic-container1 {
+  text-align: center;
+  height: 20%;
+  width: 90%;
+}
+
+.photo2 {
+  width: 20%;
+  height: 100%;
+}
+
+.picture2 {
+  background: url(../../pics/fiji.jpg);
+  height: 80%;
+  width: 90%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pic-container2 {
+  text-align: center;
+  height: 20%;
+  width: 90%;
+}
+
+.photo3 {
+  width: 20%;
+  height: 100%;
+}
+
+.picture3 {
+  background: url(../../pics/smiths_beach.jpg);
+  height: 80%;
+  width: 90%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pic-container3 {
+  text-align: center;
+  height: 20%;
+  width: 90%;
+}
+
+.photo4 {
+  width: 20%;
+  height: 100%;
+}
+
+.picture4 {
+  background: url(../../pics/toby_reduced.jpg);
+  height: 80%;
+  width: 90%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pic-container4 {
+  text-align: center;
+  height: 20%;
+  width: 90%;
+}
+
+/* @media only screen and (max-width: 1300px) and (min-width: 1200px) {
+  h1 {
+    margin: 0;
+    font-size: 34px;
+  }
+
+  .right-box {
+    height: 95%;
+    width: 90%;
+  }
+  .title {
+    font-size: 58px;
+  }
+  .para1 {
+    width: 75%;
+  }
+  .lower {
+    height: 60%;
+    margin: 0px;
+  }
+
+  .content {
+    width: 100%;
+    height: 95%;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 900px) {
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+
+  .image {
+    height: 150%;
+  }
+}
+
+@media only screen and (max-width: 1370px) and (min-width: 1100px) and (orientation: landscape) {
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1110px) and (min-width: 900px) and (orientation: landscape) {
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 500px) and (orientation: landscape) {
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+  }
+
+  .outer-container {
+    height: auto;
+  }
+  .image {
+    width: 80px;
+    height: 100px;
+    background: url(../../pics/rob_pic2.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .sidenav {
+    height: 350px;
+    width: 23%;
+    align-self: flex-start;
+  }
+
+  .links {
+    height: 270px;
+  }
+
+  .linksextra {
+    height: 10%;
+    padding: 0px 10px;
+  }
+
+  .upper {
+    align-items: flex-end;
+  }
+
+  .photos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo1 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .photo2 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .photo3 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .photo4 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 700px) {
+  h1 {
+    margin: 0;
+    font-size: 34px;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+  }
+
+  .right-box {
+    height: 90%;
+  }
+  .title {
+    font-size: 58px;
+  }
+
+  .lower {
+    height: 70%;
+  }
+
+  .upper {
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+
+  .sidenav {
+    height: 350px;
+    width: 23%;
+    align-self: flex-start;
+  }
+
+  .links {
+    height: 270px;
+  }
+
+  .linksextra {
+    height: 10%;
+    padding: 0px 10px;
+  }
+
+  .outer-container {
+    height: auto;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .lower {
+    width: 90%;
+    height: 90%;
+  }
+
+  .lower p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+  }
+
+  .image {
+    width: 80px;
+    height: 100px;
+    background: url(../../pics/rob_pic2.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .right-box {
+    width: 85%;
+    height: 100%;
+    display: flex;
+  }
+
+  .upper {
+    width: 90%;
+    height: 16%;
+    align-items: center;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 23%;
+  }
+  .linksextra {
+    height: 10%;
+    padding: 0px 10px;
+  }
+
+  .links {
+    height: 270px;
+  }
+  .para1 {
+    width: 100%;
+  }
+
+  .photos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo1 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .photo2 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .photo3 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .photo4 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+} */
