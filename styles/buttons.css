@@ -1,0 +1,43 @@
+.button-home {
+  width: 100px;
+  color: var(--black);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 5px 0px;
+  transition: 0.3s;
+}
+
+.button-home:hover {
+  background: var(--black);
+  color: yellow;
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 5px 0px;
+  text-decoration: none;
+}
+
+.button-general {
+  width: 100px;
+  color: var(--light-yellow);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 5px 0px;
+  transition: 0.3s;
+  background: var(--brown);
+  border-radius: 50px;
+}
+
+.button-general:hover {
+  background: var(--light-yellow);
+  color: black;
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 5px 0px;
+  text-decoration: none;
+}
