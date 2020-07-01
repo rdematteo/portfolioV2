@@ -8,10 +8,10 @@
 
 .container2 {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
-  background: cadetblue;
+  background: #00bb7c;
   background-position: center;
   background-size: cover;
   justify-content: flex-start;
@@ -35,7 +35,7 @@
   justify-content: space-evenly;
   align-items: center;
   width: 100vw;
-  height: 90vh;
+  height: 90%;
   padding: 30px;
 }
 
@@ -53,7 +53,7 @@
 
 .about-me-text {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   margin: 0;
   padding-bottom: 15px;
   text-align: justify;
@@ -172,6 +172,19 @@ img {
   height: 10%;
 }
 
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.about:hover {
+  color: #00bb7c;
+}
+
 @media only screen and (max-width: 800px) {
   .image-text {
     font-size: 8px;
@@ -192,6 +205,7 @@ img {
 
   .about-me-center {
     width: 90%;
+    height: auto;
     padding-top: 1rem;
   }
 }
