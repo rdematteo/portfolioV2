@@ -1,24 +1,10 @@
 @import "./buttons.css";
 
-* body {
-  margin: 0;
-  border: 0;
-}
 
 .fab {
   color: white;
 }
 
-:root {
-  --light-yellow: #feffef;
-  --light-brown: #ffc883;
-  --black: #000000;
-  --coder: #b0957a;
-  --sci: #f4e5e0;
-  --edu: #a36f61;
-  --brown: #4c2a05;
-  --h1: #4c2a05;
-}
 
 #skills {
   display: flex;
@@ -29,7 +15,6 @@
   font-size: 40px;
   font-family: "Montserrat", sans-serif;
 }
-
 
 
 .skills-heading h2 {
@@ -82,41 +67,13 @@
 }
 
 .skills-container {
-  width: 90%;
-  height: 90%;
+  width: 90%;  
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
+  align-items: center; 
   /* background: linear-gradient(to right, #fff7ef, #ffffff); */
-
-
-
 }
 
-/* .content {
-  width: 95%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-} */
-
-
-
-
-
-/* next three divs are within content */
-/* .blurb {
-  width: 95%;
-  height: 10%;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  padding: 0px 0px;
-  border-bottom: 2px solid gray;
-  margin: 0px 0px 10px 0px;
-} */
 
 .title {
   width: 95%;
@@ -127,15 +84,13 @@
   color: #128756;
 }
 
-
 .skill {
   width: 95%;
   height: 80%;
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 2rem;
 }
-
-
 
 
 /* next three divs are within skill */
@@ -174,7 +129,9 @@
   text-align: center;
 }
 
-
+.skill-resume-container img {
+  width: 70%;
+}
 
 
 
@@ -223,20 +180,37 @@
     height: 5%;
   } */
 
+  .skills-container {
+    width: 100%;
+  }
+
   .skill {
     flex-direction: column;
-    width: 95%;
-    justify-content: start;
+    width: 100%;   
+    padding: 0 1rem;
   }
 
   .skill-container {
     width: 100%;
-    justify-content: start;
+    /* justify-content: start; */
     margin-bottom: 1rem;
   }
 
   .skill-resume-container {
     width: 90%;
+  }
+
+  .skills-heading h2 {
+    font-size: 24px;
+  }
+
+  .skill-container p,
+  .skill-container li {
+    font-size: 12px;
+  }
+
+  .skill-resume-container img {
+    width: 40%;
   }
 
 }

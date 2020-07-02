@@ -53,6 +53,25 @@ h3 {
   margin: 0px;
 }
 
+.title-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10%;
+  font-size: 58px;
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem 0;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .title-main {
+    font-size: 32px;
+    padding-top: 1rem;
+  }
+}
+
 
 
 
