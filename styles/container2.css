@@ -1,10 +1,4 @@
 @import "./buttons.css";
-@import "./modal.css";
-
-* body {
-  margin: 0;
-  border: 0;
-}
 
 .container2 {
   width: 100vw;
@@ -18,16 +12,6 @@
   align-items: flex-end;
 }
 
-/* anchor tag and title styling */
-#about-me {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 10%;
-  font-size: 40px;
-  font-family: "Montserrat", sans-serif;
-}
 
 /* Middle container */
 .about-me-middle {
@@ -66,7 +50,6 @@
   width: 50%;
   height: 80%;
 }
-
 
 
 img {
@@ -184,8 +167,13 @@ img {
 }
 
 @media only screen and (max-width: 800px) {
+  .title-main {
+    font-size: 32px;
+    padding-top: 1rem;
+  }
+
   .image-text {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .about-me-text {
