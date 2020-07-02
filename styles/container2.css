@@ -67,9 +67,7 @@
   height: 80%;
 }
 
-* {
-  box-sizing: border-box;
-}
+
 
 img {
   vertical-align: middle;
@@ -196,6 +194,7 @@ img {
 
   .about-me-middle {
     flex-direction: column;
+    align-items: center;
   }
 
   .about-me-lhs {
