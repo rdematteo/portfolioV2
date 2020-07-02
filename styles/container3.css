@@ -20,13 +20,17 @@
   --h1: #4c2a05;
 }
 
-.title h1 {
-  margin: 0;
-  font-size: 58px;
+#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10%;
+  font-size: 40px;
   font-family: "Montserrat", sans-serif;
-  text-align: center;
-  color: var(--h1);
 }
+
+
 
 .skills-heading h2 {
   margin: 5px;
@@ -122,15 +126,7 @@
   font-style: italic;
   color: #128756;
 }
-#skills {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 10%;
-  font-size: 40px;
-  font-family: "Merriweather", serif;
-}
+
 
 .skill {
   width: 95%;
@@ -223,9 +219,9 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  #skills {
+  /* #skills {
     height: 5%;
-  }
+  } */
 
   .skill {
     flex-direction: column;
