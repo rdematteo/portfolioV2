@@ -2,8 +2,7 @@
 
 .projects {
   width: 100vw;
-  /* height: auto; */
-  height: 100vh;
+  
   background: #2f4858;
   display: flex;
   flex-direction: column;
@@ -21,7 +20,7 @@
 
 .project-description {
   width: 70vw;
-  height: auto;
+  height: 20rem;
   margin: 2rem 0;
   /* border: 2px solid black; */
   display: flex;
@@ -58,6 +57,14 @@
   padding: 1rem 0;
 }
 
+.image-project1 {
+  object-fit: contain;
+}
+
+.project-link {
+  color: white;
+  line-height: 1.0;
+}
 
 
 @media only screen and (max-width: 1400px) and (min-width: 768px) {
@@ -74,6 +81,10 @@
   .project-text h2 {
     font-size: 22px;
     padding-top: 1rem;
+  }
+
+  .project-description {
+    height: auto;
   }
 
   .layout-1 {
