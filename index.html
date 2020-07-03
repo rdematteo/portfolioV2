@@ -528,10 +528,11 @@
       <form
         action="https://formspree.io/robertdematteo@hotmail.com"
         method="POST"
+        name="myForm"        
       >
         <div class="name">
           <!-- <label for="name">Your name</label> -->
-          <input type="text" name="name" id="name" placeholder="Name" />
+          <input type="text" name="name" id="name" placeholder="Name" required/>
         </div>
         <div class="email">
           <!-- <label for="Email1" >Email address</label> -->
@@ -540,6 +541,7 @@
             name="_replyto"
             placeholder="Email"
             id="email"
+            required
           />
         </div>
         <div class="message">
@@ -547,6 +549,7 @@
             name="message"
             placeholder="Message"
             id="message"
+            required
           ></textarea>
         </div>
         <div class="submit">
@@ -569,8 +572,7 @@
   
 
 </div>
-      
- 
+     
 
 
 
