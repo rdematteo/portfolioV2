@@ -3,7 +3,7 @@
 .projects {
   width: 100vw;
   
-  background: #2f4858;
+  background: #00958e;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -80,7 +80,10 @@
 @media only screen and (max-width: 768px) {
   .project-text h2 {
     font-size: 22px;
-    padding-top: 1rem;
+    padding: 1rem 0 .02rem 0;
+  }
+  .projects-text h3 {
+    font-size: 18px;
   }
 
   .project-description {
