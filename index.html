@@ -42,7 +42,7 @@
             <a href="#about-me" class="button-home">About Me</a>
             <a href="#skills" class="button-home">Skills</a>
             <a href="#projects" class="button-home"> Projects</a>
-            <a href="#" class="button-home">Contact Me</a>
+            <a href="#contact-me" class="button-home">Contact Me</a>
             <!-- <a href="" class="button-home">Blog</a> -->
           </div>
        
@@ -63,7 +63,8 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    <div class="container2">
+    <div class="about-me-container">
+      <div class="about-me-wrapper">
       <div class="title-main" id="about-me">About Me</div>
       <div class="about-me-middle">
         <div class="about-me-lhs">
@@ -262,24 +263,24 @@
         <div class="about-me-rhs"></div>
       </div>
 
-      <div class="about-me-nav">
+      <div class="nav">
         <div class="links">
           <a href="#home" class="button-home about">Home</a>
           <a href="#skills" class="button-home about">Skills</a>
           <a href="#projects" class="button-home about"> Projects</a>
-          <a href="#" class="button-home about">Contact Me</a>
+          <a href="#contact-me" class="button-home about">Contact Me</a>
           <!-- <a href="" class="button-home about">Blog</a> -->
         </div>
       </div>
     </div>
-
-    
+    </div>
     
   
 
-  <div class="container3">
+  <div class="skills-container">
     
-      <div class="skills-container">
+     
+        <div class="skills-wrapper">
         
           <div id="skills"></div>
           <div class="title-main">Skills</div>
@@ -358,7 +359,7 @@
        
         
       </div>
-      <div class="about-me-nav">
+      <div class="nav">
         <div class="links">
           <a href="#home" class="button-home about">Home</a>
           <a href="#about-me" class="button-home about">About Me</a>
@@ -376,7 +377,7 @@
 
 
   <div class="projects">  
-      <!-- <div id="projects"></div> -->
+      
     <div class="title-main" id="projects">Projects
 
     </div>
@@ -503,12 +504,12 @@
     </div>
 
 
-      <div class="about-me-nav">
+      <div class="nav">
         <div class="links">
           <a href="#home" class="button-home about">Home</a>
           <a href="#about-me" class="button-home about">About Me</a>
-          <a href="#projects" class="button-home about"> Projects</a>
-          <a href="./contact-me/index.html" class="button-home about">Contact Me</a>
+          <a href="#skills" class="button-home about">Skills</a>
+          <a href="contact" class="button-home about">Contact Me</a>
           <!-- <a href="" class="button-home about">Blog</a> -->
         </div>
       </div>
@@ -517,8 +518,57 @@
 
   </div>
       
+<div class="contact-me">
 
+  <div class="title-main" id="contact-me">Contact Me</div>
 
+  <div class="contact-container">
+   
+    <div class="form">
+      <form
+        action="https://formspree.io/robertdematteo@hotmail.com"
+        method="POST"
+      >
+        <div class="name">
+          <!-- <label for="name">Your name</label> -->
+          <input type="text" name="name" id="name" placeholder="Name" />
+        </div>
+        <div class="email">
+          <!-- <label for="Email1" >Email address</label> -->
+          <input
+            type="email"
+            name="_replyto"
+            placeholder="Email"
+            id="email"
+          />
+        </div>
+        <div class="message">
+          <textarea
+            name="message"
+            placeholder="Message"
+            id="message"
+          ></textarea>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Send" id="submit" />
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="nav">
+    <div class="links">
+      <a href="#home" class="button-home about">Home</a>
+      <a href="#about-me" class="button-home about">About Me</a>
+      <a href="#skills" class="button-home about">Skills</a>
+      <a href="projects" class="button-home about">Projects</a>
+      <!-- <a href="" class="button-home about">Blog</a> -->
+    </div>
+  </div>
+   
+  
+
+</div>
       
  
 

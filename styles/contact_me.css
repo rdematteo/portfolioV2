@@ -1,0 +1,123 @@
+
+.contact-me {
+  width: 100vw;
+  height: auto;
+  background: #006e80;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
+
+
+
+}
+
+.contact-container {
+  width: 40%;
+  height: 70%;
+  /* background: gray; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+
+
+/* form details */
+.form {
+  width: 95%;
+  height: 60%;
+}
+
+.name,
+.email,
+.message {
+  font-family: "Merriweather", serif;
+  font-size: 36px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+#name,
+#message,
+#email {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px 0px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 3px solid black;
+}
+
+#submit { 
+  color: black;
+  height: 50px;
+  width: 10vw;
+  font: bold 15px arial, sans-serif;
+  text-shadow: none;
+  border-radius: 20px;
+  padding: 10px 10px;
+  transition: 0.5s;
+  border: 3px solid black;
+}
+
+#submit:hover {
+  background: black;
+  border-radius: 20px;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 850px) {
+  h1 {
+    font-size: 40px;
+  }
+  
+}
+
+@media only screen and (max-width: 850px) and (min-width: 700px) {
+  h1 {
+    font-size: 38px;
+  }
+  
+  .contact-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 814px) and (orientation: landscape) {
+  h1 {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .contact-container {
+    width: 95%;
+    height: 90%;
+  }
+ 
+  .form {
+    width: 80%;
+  }
+
+  #name,
+  #email,
+  #message {
+    width: 100%;
+  }
+
+  #submit {
+    width: 100%;
+  }
+}
