@@ -2,6 +2,7 @@
 @import "./info.css";
 @import 'container2.css';
 @import 'container3.css';
+@import './projects.css';
 
 * body {
   margin: 0;
