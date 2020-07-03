@@ -2,6 +2,7 @@
 @import "./info.css";
 @import 'container2.css';
 @import 'container3.css';
+@import './projects.css';
 
 * body {
   margin: 0;
@@ -24,6 +25,7 @@
   --light-yellow: #feffef;
   --light-brown: #ffc883;
   --black: #000000;
+  --aqua: #00C5FF;
 }
 
 
@@ -49,8 +51,9 @@ h3 {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-style: italic;
-  color: var(--light-brown);
+  color: var(--aqua);
   margin: 0px;
+  text-align: center;
 }
 
 .title-main {
